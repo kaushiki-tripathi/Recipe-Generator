@@ -14,6 +14,7 @@ import {
 
 const Homepage = () => {
   const [selectedIngredients, setSelectedIngredients] = useState([]);
+  const [dietaryPreference, setDietaryPreference] = useState("");
 
   return (
 
@@ -101,18 +102,39 @@ const Homepage = () => {
       
 
       {/* Right Content */}
-      <main className="flex-1 flex flex-col justify-center items-center">
-        {selectedIngredients.length===0?(
+      <main className="flex-1 flex flex-col items-center p-6">
+        
+        {/* Dietary Preferences */}
+        <div className="w-full max-w-3xl mb-30">
+          <h2 className="text-xl ml-55 font-semibold mb-5 text-pink-600">Dietary Preferences</h2>
+          <div className="flex gap-3 flex-wrap">
+            {["Vegetarian", "Non-Vegetarian","Vegan", "Gluten-Free","Pescatarian"].map((pref) => (
+              <button
+                key={pref}
+                onClick={() => setDietaryPreference(dietaryPreference === pref ? "" : pref)}
+                className={`px-4 py-2 rounded-full border transition cursor-pointer
+                  ${dietaryPreference === pref
+                    ? "bg-pink-500 text-white border-pink-600"
+                    : "bg-gray-200 text-gray-600 hover:bg-gray-300 cursor-pointer"}`}
+              >
+                {pref}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {selectedIngredients.length === 0 ? (
           <>
-        <img src={recipeimg} alt="Recipe Img" className='w-10 h-10 mr-2'/>
-        <h2 className="text-3xl font-semibold">
-          Add your ingredients to get started
-        </h2>
-        <p className="text-gray-500 text-xl">
-          Every ingredient you add unlocks more recipes
-        </p>
-        </>
-        ):(<Recipes ingredients={selectedIngredients}/>
+            <img src={recipeimg} alt="Recipe Img" className="w-10 h-10 mr-2" />
+            <h2 className="text-3xl font-semibold">
+              Add your ingredients to get started
+            </h2>
+            <p className="text-gray-500 text-xl">
+              Every ingredient you add unlocks more recipes
+            </p>
+          </>
+        ) : (
+          <Recipes ingredients={selectedIngredients} dietaryPreference={dietaryPreference} />
         )}
       </main>
     </div>
