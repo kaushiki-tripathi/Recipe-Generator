@@ -21,19 +21,19 @@ const Homepage = () => {
     <div className="flex">
       {/* Sidebar */}
       
-      <aside className="w-1/3 bg-blend-hard-light p-3 scroll">
-        <div className="bg-white shadow-xl rounded-lg p-4 mb-4">
+      <aside className="w-1/3 bg-blend-hard-light p-3">
+        <div className="bg-white shadow-xl rounded-lg p-4 mb-4 overflow-y-auto custom-scroll h-[570px]">
           <h2 className="text-xl text-pink-600 text-center font-semibold mb-2">
             Pantry
           </h2>
 
-          <div className="text-center text-gray-500 mb-2">
+          <div className="text-center text-gray-500 mb-2 ">
             You have {selectedIngredients.length} ingredient
             {selectedIngredients.length !== 1 ? "s" : ""}
           </div>
-
+{/* ofodmmvdmvefkmvofmvoeeomeomeo */}
           {/* Ingredient Sections */}
-          <div className=" bg-pink-50 p-3 scroll shadow-lg rounded-lg mb-5">
+          <div className=" bg-pink-50 p-3 shadow-lg rounded-lg mb-5">
           
           <IngredientSection
             title={<span className="text-pink-600 ">Pantry Essentials</span>}
@@ -50,7 +50,7 @@ const Homepage = () => {
             setSelectedIngredients={setSelectedIngredients}
           />
           </div>
-
+          <div></div>
           <div className=" bg-pink-50 p-3 scroll shadow-lg rounded-lg mb-5">
           <IngredientSection
             title={<span className="text-pink-600">Fruits</span>}
