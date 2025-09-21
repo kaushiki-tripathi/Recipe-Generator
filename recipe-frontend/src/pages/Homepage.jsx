@@ -194,7 +194,7 @@ const Homepage = () => {
 
       <main className="flex-1 flex flex-col items-center p-4 sm:p-6">
         <div className="w-full max-w-2xl mb-8">
-          <h2 className="text-xl font-semibold mb-5 text-pink-600 text-center md:text-left">Dietary Preferences</h2>
+          <h2 className="text-xl font-semibold mb-5 text-pink-600 text-center">Dietary Preferences</h2>
           <div className="flex gap-2 sm:gap-3 flex-wrap justify-center md:justify-start">
             {["Vegetarian", "Non-Vegetarian","Vegan", "Gluten-Free","Pescatarian"].map((pref) => (
               <button
