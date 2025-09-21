@@ -7,15 +7,25 @@ ingredients
 
 # 🚀 Features
 
-- Login and Signup buttons redirecting to respective pages
-  
-- Google Sign-In functionality using OAuth
-  
-- Scrollable sections with selectable ingredients.
-  
-- Shows count of selected ingredients.
-  
-- Recipes filtered dynamically based on selected preference.
+###  Pantry & Ingredient Selection
+* **Categorized Pantry:** Browse and select ingredients from logically grouped sections like Pantry Essentials, Vegetables, Meats, and more.
+* **Live Pantry Counter:** A dynamic counter that shows how many ingredients you've selected, complete with a "Clear All" button for a quick reset.
+
+### 🧠 Smart Recipe Engine
+* **Dynamic Recipe Matching:** A core algorithm that instantly finds and displays recipes from the database based on the ingredients you've selected.
+* **Match Score & Sorting:** Recipes are intelligently ranked by a "match score" (the percentage of ingredients you have), so the best possible recipes always appear first.
+* **Advanced Dietary Filtering:** Filter the matched recipes in real-time by key dietary preferences, including Vegetarian, Non-Vegetarian, Vegan, and Gluten-Free.
+* **Pagination System:** Efficiently handles a large number of results by breaking them into pages, ensuring the UI remains fast and uncluttered.
+
+### ✨ Modern UI & UX
+* **Responsive Recipe Cards:** A clean, modern grid displays recipe results in a way that looks great on any device, from mobile phones to desktops.
+* **Detailed Recipe Modal:** Click on any recipe card to open a pop-up modal with a smooth animation. This view shows all recipe details, including:
+    * Serving Size
+    * Nutritional Information (Calories, Protein)
+    * A complete ingredient list
+    * Step-by-step instructions
+* **Comprehensive Authentication UI:** Fully designed, user-friendly pages for Login, Sign Up, and "Sign in with Google".
+* **Fully Responsive Design:** Built from the ground up with Tailwind CSS, the entire application is optimized for a seamless experience on all screen sizes.
 
 # Photographs
 
@@ -25,11 +35,11 @@ ingredients
 
 <h3 align="center">Home Page</h3>
 
-![image](https://github.com/kaushiki-tripathi/Recipe-Generator/blob/main/Home%20Page.png?raw=true)
+![image](https://github.com/kaushiki-tripathi/Recipe-Generator/blob/3c0b549e89b628767c2acc56fa1bdc7aece72bb9/Home%20Page.png)
 
 <h3 align="center">Recipe</h3>
 
-![image](https://github.com/kaushiki-tripathi/Recipe-Generator/blob/main/Recipe%20Page.png?raw=true)
+![image]([https://github.com/kaushiki-tripathi/Recipe-Generator/blob/main/Recipe%20Page.png?raw=true](https://github.com/kaushiki-tripathi/Recipe-Generator/blob/3c0b549e89b628767c2acc56fa1bdc7aece72bb9/Recipe%20Page.png))
 
 # 🛠️ Tech Stack
 
@@ -40,7 +50,7 @@ ingredients
 - MongoDB
 
 # 📂 Installation
-git clone https://github.com/kaushiki-tripathi/Pinterest-Login-Signup-Clone-.git
+git clone https://github.com/kaushiki-tripathi/Recipe-Generator.git
 
 cd Recipe-Generator
 
@@ -48,6 +58,3 @@ npm install
 
 npm start
 
-# 🙌 Acknowledgements
-
-Inspired by Pinterest UI for learning purposes.
