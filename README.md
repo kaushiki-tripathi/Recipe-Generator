@@ -39,7 +39,7 @@ ingredients
 
 <h3 align="center">Recipe</h3>
 
-![image]([https://github.com/kaushiki-tripathi/Recipe-Generator/blob/main/Recipe%20Page.png?raw=true](https://github.com/kaushiki-tripathi/Recipe-Generator/blob/3c0b549e89b628767c2acc56fa1bdc7aece72bb9/Recipe%20Page.png))
+![image](https://github.com/kaushiki-tripathi/Recipe-Generator/blob/726ad1230e2ee5e107cbc38f1812e90f6c7b3abe/Recipe%20Page.png)
 
 # 🛠️ Tech Stack
 
