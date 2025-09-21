@@ -10,7 +10,7 @@ const Footer = () => {
               Recipe Generator
             </h3><br></br>
           </div>
-          <div className="text-sm text-gray-700">
+          <div classNace="text-sm text-gray-700">
             Welcome to Recipe Generator,<br></br> your ultimate destination for<br></br> transforming everyday <br></br>ingredients into mouth-<br></br>watering meals.<br></br><br></br>@2025, All rights reserved
           </div>
         </div>

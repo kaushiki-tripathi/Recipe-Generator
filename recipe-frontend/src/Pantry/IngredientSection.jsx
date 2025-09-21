@@ -1,12 +1,12 @@
 import React from "react";
-import Recipes from "../components/Recipes";
 
 const IngredientSection = ({ title, ingredients, selectedIngredients, setSelectedIngredients }) => {
   const handleIngredientClick = (ingredient) => {
-    if (selectedIngredients.includes(ingredient)) {
-      setSelectedIngredients(selectedIngredients.filter((item) => item !== ingredient));
+    const lowerCaseIngredient=ingredient.toLowerCase();
+    if (selectedIngredients.includes(lowerCaseIngredient)) {
+      setSelectedIngredients(selectedIngredients.filter((item) => item !== lowerCaseIngredient));
     } else {
-      setSelectedIngredients([...selectedIngredients, ingredient]);
+      setSelectedIngredients([...selectedIngredients, lowerCaseIngredient]);
     }
   };
 
@@ -17,7 +17,7 @@ const IngredientSection = ({ title, ingredients, selectedIngredients, setSelecte
         {ingredients.map((ingredient) => (
           <button
             key={ingredient}
-            className={`px-2 py-1 rounded-full border text-sm cursor-pointer ${selectedIngredients.includes(ingredient) ? "bg-pink-200 border-pink-400" : "bg-gray-100 border-gray-300"}`}
+            className={`px-2 py-1 rounded border text-sm cursor-pointer ${selectedIngredients.includes(ingredient.toLowerCase()) ? "bg-pink-200 border-pink-400" : "bg-gray-200 border"}`}
             onClick={() => handleIngredientClick(ingredient)} 
           >
             {ingredient}

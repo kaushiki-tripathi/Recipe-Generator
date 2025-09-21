@@ -1,0 +1,623 @@
+[
+  {
+    "id": 1,
+    "title": "Palak Paneer",
+    "image": "../photos/palak-paneer.jpg",
+    "category": "Vegetarian",
+    "tags": ["Vegetarian", "Curry", "North Indian", "Gluten-Free"],
+    "details": {
+      "servings": "4 people",
+      "calories": "350 kcal",
+      "protein": "18g"
+    },
+    "instructions": "First, blanch the spinach, then puree it. Sauté onions, garlic, ginger, and tomatoes. Add spices like turmeric, cumin, and coriander. Mix in the spinach puree and simmer. Finally, add cubes of paneer and a splash of cream. Cook for another 2-3 minutes and serve hot.",
+    "ingredients": [
+      { "name": "spinach", "quantity": "1 bunch" },
+      { "name": "paneer", "quantity": "200g" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "garlic", "quantity": "3 cloves" },
+      { "name": "ginger", "quantity": "1 inch" },
+      { "name": "cream", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Paneer Butter Masala",
+    "image": "../photos/paneer-butter.jpg",
+    "category": "Vegetarian",
+     "tags": ["Vegetarian", "Curry", "Creamy", "Gluten-Free"],
+     "details": {
+      "servings": "4 people",
+      "calories": "450 kcal",
+      "protein": "15g"
+    },
+    "instructions": "Sauté cashews, onions, tomatoes, and ginger-garlic paste. Blend into a smooth puree. In a pan, melt butter, add the puree and spices like red chili powder and garam masala. Cook until the gravy thickens. Add paneer cubes and a generous amount of cream. Simmer for 5 minutes.",
+    "ingredients": [
+      { "name": "paneer", "quantity": "250g" },
+      { "name": "butter", "quantity": "3 tbsp" },
+      { "name": "cream", "quantity": "1/2 cup" },
+      { "name": "tomato", "quantity": "3 large" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "cashews", "quantity": "1/4 cup" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Aloo Gobi",
+    "image": "../photos/aaloo-gobhi.jpg",
+     "category": "Vegetarian",
+    "tags": ["Vegetarian", "Vegan", "Dry Curry", "Gluten-Free"],
+    "details": {
+      "servings": "4 people",
+      "calories": "250 kcal",
+      "protein": "7g"
+    },
+    "instructions": "Heat oil in a pan, add cumin seeds. Add chopped onions and sauté until golden. Add ginger and garlic. Stir in potato and cauliflower florets. Add powdered spices like turmeric, coriander, and chili powder. Cover and cook on low heat until vegetables are tender.",
+    "ingredients": [
+      { "name": "potato", "quantity": "2 medium" },
+      { "name": "cauliflower", "quantity": "1 medium" },
+      { "name": "onion", "quantity": "1" },
+      { "name": "tomato", "quantity": "1" },
+      { "name": "cumin", "quantity": "1 tsp" },
+      { "name": "turmeric", "quantity": "1/2 tsp" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Vegetable Korma",
+    "image": "../photos/vegetable-korma.jpg",
+    "category": "Vegetarian",
+    "tags": ["Vegetarian", "Creamy", "Mughlai", "Gluten-Free"],
+    "details": {
+      "servings": "4-6 people",
+      "calories": "400 kcal",
+      "protein": "10g"
+    },
+    "instructions": "Boil mixed vegetables like carrots, peas, and green beans until tender. Make a paste of cashews, coconut, and onion. In a pan, heat ghee, add the paste and sauté. Add yogurt and spices. Mix well. Add the boiled vegetables and water to form a gravy. Simmer until creamy.",
+    "ingredients": [
+      { "name": "carrot", "quantity": "1" },
+      { "name": "peas", "quantity": "1/2 cup" },
+      { "name": "green beans", "quantity": "1/2 cup" },
+      { "name": "potato", "quantity": "1" },
+      { "name": "onion", "quantity": "1" },
+      { "name": "cashews", "quantity": "1/4 cup" },
+      { "name": "cream", "quantity": "3 tbsp" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Mushroom Matar",
+    "image": "../photos/mushroom-matar.jpg",
+    "category": "Vegetarian",
+    "tags": ["Vegetarian", "Vegan", "Curry", "Gluten-Free"],
+    "details": {
+      "servings": "3-4 people",
+      "calories": "280 kcal",
+      "protein": "9g"
+    },
+    "instructions": "Sauté sliced mushrooms until they release their water and brown. Set aside. In the same pan, heat oil, add cumin seeds, and chopped onions. Cook until golden. Add ginger-garlic paste and tomato puree. Add spices and cook into a gravy. Add the mushrooms and peas, and simmer for 10 minutes.",
+    "ingredients": [
+      { "name": "mushroom", "quantity": "200g" },
+      { "name": "peas", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "2" },
+      { "name": "garlic", "quantity": "2 cloves" },
+      { "name": "ginger", "quantity": "1/2 inch" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Dum Aloo",
+    "image": "../photos/dum-aloo.jpg",
+    "category": "Vegetarian",
+    "tags": ["Vegetarian", "Curry", "Spicy", "Gluten-Free"],
+    "details": {
+      "servings": "4 people",
+      "calories": "320 kcal",
+      "protein": "8g"
+    },
+    "instructions": "Prick baby potatoes and deep fry until golden. Set aside. Make a gravy by sautéing onions, tomatoes, and a blend of spices. Whisk yogurt and add it to the gravy, cooking continuously. Add the fried potatoes to the gravy, add water, and simmer on low heat (dum) for 15-20 minutes.",
+    "ingredients": [
+      { "name": "potato", "quantity": "500g" },
+      { "name": "yogurt", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "2" },
+      { "name": "tomato", "quantity": "2" },
+      { "name": "cashews", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Vegetable Pulao",
+    "image": "../photos/vegetable-pulao.jpg",
+    "category": "Vegetarian",
+    "tags": ["Vegetarian", "Rice Dish", "One Pot", "Gluten-Free"],
+     "details": {
+      "servings": "4 people",
+      "calories": "300 kcal",
+      "protein": "6g"
+    },
+    "instructions": "Wash and soak rice. In a pressure cooker or pot, heat ghee or oil. Sauté whole spices like cinnamon and cumin seeds. Add sliced onions and cook until golden. Add mixed vegetables like carrots and peas. Stir in the soaked rice, salt, and water. Cook until the rice is done and fluffy.",
+    "ingredients": [
+      { "name": "white rice", "quantity": "1 cup" },
+      { "name": "carrot", "quantity": "1" },
+      { "name": "peas", "quantity": "1/2 cup" },
+      { "name": "onion", "quantity": "1" },
+      { "name": "ghee", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Tomato Rice",
+    "image": "../photos/tomato-rice.jpg",
+    "category": "Vegetarian",
+    "tags": ["Vegetarian", "Vegan", "Rice Dish", "South Indian", "Gluten-Free"],
+    "details": {
+      "servings": "2-3 people",
+      "calories": "280 kcal",
+      "protein": "5g"
+    },
+    "instructions": "Cook rice and set aside. In a pan, heat oil, add mustard seeds, and let them splutter. Sauté onions until translucent. Add ginger-garlic paste and chopped tomatoes. Cook until the tomatoes are mushy. Add spices like turmeric and chili powder. Finally, mix in the cooked rice.",
+    "ingredients": [
+      { "name": "white rice", "quantity": "1 cup, cooked" },
+      { "name": "tomato", "quantity": "4 large" },
+      { "name": "onion", "quantity": "1" },
+      { "name": "mustard", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Saag Aloo",
+    "image": "../photos/saag-aloo.jpg",
+    "category": "Vegetarian",
+    "tags": ["Vegetarian", "Vegan", "Dry Curry", "Gluten-Free"],
+    "details": {
+      "servings": "4 people",
+      "calories": "220 kcal",
+      "protein": "6g"
+    },
+    "instructions": "Boil and cube potatoes. Blanch and chop spinach. In a pan, heat oil, add cumin seeds and chopped garlic. Sauté for a minute. Add onions and cook until soft. Add the chopped spinach and cook until wilted. Stir in the boiled potatoes and spices. Cook for another 5 minutes.",
+    "ingredients": [
+      { "name": "spinach", "quantity": "1 bunch" },
+      { "name": "potato", "quantity": "3 medium" },
+      { "name": "garlic", "quantity": "4 cloves" },
+      { "name": "onion", "quantity": "1" }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Onion Pakoda",
+    "image": "../photos/onion-pakoda.jpg",
+    "category": "Vegetarian",
+    "tags": ["Snack", "Fried", "Vegan"],
+    "details": {
+      "servings": "4 people",
+      "calories": "300 kcal",
+      "protein": "5g"
+    },
+    "instructions": "Thinly slice onions. In a bowl, mix flour (traditionally gram flour, but regular works), chili powder, turmeric, and salt. Add the sliced onions and a small amount of water to create a thick batter that coats the onions. Heat vegetable oil for deep frying. Drop spoonfuls of the batter into the hot oil and fry until golden and crisp.",
+    "ingredients": [
+      { "name": "onion", "quantity": "2 large" },
+      { "name": "flour", "quantity": "1 cup" },
+      { "name": "chili powder", "quantity": "1 tsp" },
+      { "name": "vegetable oil", "quantity": "for frying" }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Butter Chicken (Murgh Makhani)",
+    "image": "../photos/butter-chicken.jpg",
+    "category": "Non-Vegetarian",
+    "tags": ["Chicken", "Curry", "Creamy", "Gluten-Free"],
+    "details": {
+      "servings": "4 people",
+      "calories": "550 kcal",
+      "protein": "30g"
+    },
+    "instructions": "Marinate chicken pieces in yogurt and spices. Grill or pan-fry until cooked. For the gravy, blend tomatoes, cashews into a smooth puree. In a pan, melt a generous amount of butter, add the puree and cook. Add spices, cream, and a little honey or sugar. Add the cooked chicken and simmer.",
+    "ingredients": [
+      { "name": "chicken breast", "quantity": "500g" },
+      { "name": "butter", "quantity": "1/2 cup" },
+      { "name": "tomato", "quantity": "4" },
+      { "name": "cream", "quantity": "1/2 cup" },
+      { "name": "yogurt", "quantity": "1/4 cup" },
+      { "name": "cashews", "quantity": "1/4 cup" }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Chicken Tikka Masala",
+    "image": "../photos/chicken-tikka.jpg",
+    "category": "Non-Vegetarian",
+    "tags": ["Chicken", "Curry", "Spicy", "Gluten-Free"],
+    "details": {
+      "servings": "4 people",
+      "calories": "480 kcal",
+      "protein": "35g"
+    },
+    "instructions": "Marinate chicken in yogurt, lemon juice, and spices like garam masala and paprika. Skewer and grill until charred. For the sauce, sauté onions, ginger, and garlic. Add tomato puree and spices, and cook into a thick gravy. Stir in cream. Add the grilled chicken pieces and simmer.",
+    "ingredients": [
+      { "name": "chicken thighs", "quantity": "500g" },
+      { "name": "yogurt", "quantity": "1 cup" },
+      { "name": "tomato", "quantity": "1 can" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "cream", "quantity": "1/2 cup" },
+      { "name": "paprika", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Simple Chicken Curry",
+    "image": "../photos/chicken-curry.jpg",
+    "category": "Non-Vegetarian",
+    "tags": ["Chicken", "Curry", "Homestyle", "Gluten-Free"],
+    "details": {
+      "servings": "4-6 people",
+      "calories": "420 kcal",
+      "protein": "28g"
+    },
+    "instructions": "Heat oil, sauté chopped onions until golden. Add ginger-garlic paste and cook for a minute. Add pureed tomatoes and cook until oil separates. Add powdered spices like turmeric, chili powder, and coriander. Add chicken pieces and sauté for 5-7 minutes. Add water, cover, and simmer until chicken is cooked through.",
+    "ingredients": [
+      { "name": "chicken", "quantity": "1 kg" },
+      { "name": "onion", "quantity": "2 large" },
+      { "name": "tomato", "quantity": "3 medium" },
+      { "name": "ginger", "quantity": "1 inch" },
+      { "name": "garlic", "quantity": "4 cloves" }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Mutton Rogan Josh",
+    "image": "../photos/mutton-rogan.jpg",
+    "category": "Non-Vegetarian",
+    "tags": ["Mutton", "Curry", "Kashmiri", "Gluten-Free"],
+    "details": {
+      "servings": "4 people",
+      "calories": "500 kcal",
+      "protein": "32g"
+    },
+    "instructions": "Heat ghee in a pressure cooker. Sauté mutton pieces until browned. Add whisked yogurt mixed with Kashmiri red chili powder and other spices. Cook until oil separates. Add water, salt, and pressure cook until the mutton is tender. The gravy should be rich and red.",
+    "ingredients": [
+      { "name": "mutton", "quantity": "500g" },
+      { "name": "yogurt", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "2" },
+      { "name": "ghee", "quantity": "3 tbsp" },
+      { "name": "cinnamon", "quantity": "1 stick" }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Egg Curry",
+    "image": "../photos/egg-curry.jpg",
+    "category": "Non-Vegetarian",
+    "tags": ["Egg", "Curry", "Gluten-Free"],
+     "details": {
+      "servings": "3-4 people",
+      "calories": "300 kcal",
+      "protein": "15g"
+    },
+    "instructions": "Hard boil eggs and peel them. Make a few slits in the eggs. In a pan, heat oil and lightly fry the boiled eggs until golden. Set aside. In the same pan, make a gravy with onion, tomato, ginger, garlic, and spices. Add water and bring to a boil. Gently add the fried eggs and simmer for 10 minutes.",
+    "ingredients": [
+      { "name": "egg", "quantity": "6" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "2" },
+      { "name": "ginger", "quantity": "1 inch" },
+      { "name": "garlic", "quantity": "3 cloves" }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Chicken Biryani",
+    "image": "../photos/chicken-biryani.jpg",
+    "category": "Non-Vegetarian",
+    "tags": ["Chicken", "Rice Dish", "Mughlai"],
+    "details": {
+      "servings": "6 people",
+      "calories": "600 kcal",
+      "protein": "40g"
+    },
+    "instructions": "Marinate chicken in yogurt and biryani masala. Separately, par-boil basmati rice until 70% cooked. In a heavy-bottomed pot, layer the marinated chicken and the par-boiled rice. Top with fried onions, mint leaves, and ghee. Cover and cook on low heat (dum) for 25-30 minutes until everything is cooked through.",
+    "ingredients": [
+      { "name": "chicken", "quantity": "500g" },
+      { "name": "white rice", "quantity": "2 cups" },
+      { "name": "yogurt", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "2 large, for frying" },
+      { "name": "ghee", "quantity": "3 tbsp" }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Keema Matar",
+    "image": "../photos/keema-matar.jpg",
+    "category": "Non-Vegetarian",
+    "tags": ["Mutton", "Curry", "Gluten-Free"],
+    "details": {
+      "servings": "4 people",
+      "calories": "450 kcal",
+      "protein": "25g"
+    },
+    "instructions": "Heat oil, sauté whole spices, then add chopped onions and cook until golden. Add ginger-garlic paste, then add the minced mutton (keema). Cook until the keema is browned. Add powdered spices and chopped tomatoes. Cook well. Add peas and a little water. Cover and cook until peas are tender and keema is cooked through.",
+    "ingredients": [
+      { "name": "mutton", "quantity": "500g, minced" },
+      { "name": "peas", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "2" },
+      { "name": "tomato", "quantity": "2" },
+      { "name": "ginger", "quantity": "1 inch" }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Gajar ka Halwa",
+    "image": "../photos/gajar-halwa.jpg",
+    "category": "Dessert",
+    "tags": ["Sweet", "Vegetarian", "Gluten-Free"],
+    "details": {
+      "servings": "6-8 people",
+      "calories": "380 kcal",
+      "protein": "6g"
+    },
+    "instructions": "Grate carrots. In a heavy-bottomed pan, cook the grated carrots in milk until the milk is almost fully absorbed. Add sugar and continue to cook until the mixture thickens. Add ghee and cook for another 10-15 minutes until it gets a rich color. Garnish with chopped almonds and cashews.",
+    "ingredients": [
+      { "name": "carrot", "quantity": "1 kg" },
+      { "name": "milk", "quantity": "1 litre" },
+      { "name": "sugar", "quantity": "1 cup" },
+      { "name": "ghee", "quantity": "4 tbsp" },
+      { "name": "almonds", "quantity": "1/4 cup" },
+      { "name": "cashews", "quantity": "1/4 cup" }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Fruit Chaat",
+    "image": "../photos/fruit-chaat.jpg",
+    "category": "Salad",
+    "tags": ["Fruit", "Snack", "Vegan", "Gluten-Free"],
+    "details": {
+      "servings": "4 people",
+      "calories": "150 kcal",
+      "protein": "2g"
+    },
+    "instructions": "Chop a variety of fruits like apples, bananas, and oranges into bite-sized pieces. Place them in a large bowl. Sprinkle with chaat masala (a tangy spice mix), a pinch of black salt, and a squeeze of fresh lemon juice. Toss gently to combine. Serve immediately.",
+    "ingredients": [
+      { "name": "apple", "quantity": "1" },
+      { "name": "banana", "quantity": "1" },
+      { "name": "pomegranate", "quantity": "1/2 cup" },
+      { "name": "orange", "quantity": "1" },
+      { "name": "lemon", "quantity": "1/2" }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Boondi Raita",
+    "image": "../photos/boondi-raita.jpg",
+    "category": "Side Dish",
+    "tags": ["Yogurt", "Vegetarian", "Side", "Gluten-Free"],
+    "details": {
+      "servings": "4 people",
+      "calories": "120 kcal",
+      "protein": "5g"
+    },
+    "instructions": "Soak boondi (small fried chickpea flour balls) in warm water for 5 minutes to soften them, then gently squeeze out the excess water. Whisk yogurt until smooth. Add the soaked boondi, roasted cumin powder, a pinch of chili powder, and salt. Mix well. Garnish with fresh coriander if desired. Chill before serving.",
+    "ingredients": [
+      { "name": "yogurt", "quantity": "2 cups" },
+      { "name": "cumin", "quantity": "1 tsp, roasted powder" },
+      { "name": "chili powder", "quantity": "1/4 tsp" }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Aloo Paratha",
+    "image": "/photos/aloo-paratha.jpg",
+    "category": "Breakfast",
+    "tags": ["Vegetarian", "North Indian", "Bread"],
+    "details": {
+        "servings": "4 parathas",
+        "calories": "250 kcal per paratha",
+        "protein": "6g"
+    },
+    "instructions": "Boil and mash potatoes. Sauté chopped onions, add mashed potatoes and spices like chili powder and cumin. Knead flour into a soft dough. Take a small portion of dough, flatten it, place a spoonful of the potato filling, and seal it. Roll it out into a flat circle. Cook on a hot tawa (griddle) with ghee or butter until golden brown on both sides.",
+    "ingredients": [
+      { "name": "potato", "quantity": "3 medium" },
+      { "name": "flour", "quantity": "2 cups" },
+      { "name": "onion", "quantity": "1 small" },
+      { "name": "ghee", "quantity": "for cooking" },
+      { "name": "chili powder", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Paneer Tikka",
+    "image": "/photos/paneer-tikka.jpg",
+    "category": "Snack",
+    "tags": ["Vegetarian", "Appetizer", "Gluten-Free"],
+    "details": {
+        "servings": "2-3 people",
+        "calories": "300 kcal",
+        "protein": "18g"
+    },
+    "instructions": "Cut paneer and bell peppers into cubes. In a bowl, mix yogurt with spices like paprika, cumin, and garlic powder. Add the paneer and vegetables to the marinade and let it sit for at least 30 minutes. Thread the paneer and vegetables onto skewers. Grill or pan-fry with a little oil until they are slightly charred.",
+    "ingredients": [
+      { "name": "paneer", "quantity": "250g" },
+      { "name": "yogurt", "quantity": "1/2 cup" },
+      { "name": "bell pepper", "quantity": "1" },
+      { "name": "onion", "quantity": "1" },
+      { "name": "paprika", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Instant Rava Dhokla",
+    "image": "/photos/dhokla.jpg",
+    "category": "Snack",
+    "tags": ["Vegetarian", "Steamed", "Gujarati"],
+    "details": {
+        "servings": "2-3 people",
+        "calories": "220 kcal",
+        "protein": "7g"
+    },
+    "instructions": "In a bowl, mix flour (traditionally semolina/rava, but all-purpose works for an instant version), yogurt, and a little water to form a thick batter. Let it rest for 15 minutes. Add baking soda and mix well. Pour the batter into a greased steaming plate and steam for 10-12 minutes. For tempering, heat oil, add mustard seeds, and pour over the dhokla. Cut into squares and serve.",
+    "ingredients": [
+      { "name": "flour", "quantity": "1 cup" },
+      { "name": "yogurt", "quantity": "1/2 cup" },
+      { "name": "baking soda", "quantity": "1 tsp" },
+      { "name": "mustard", "quantity": "1 tsp" },
+      { "name": "sugar", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Aloo Tikki",
+    "image": "/photos/aloo-tikki.jpg",
+    "category": "Snack",
+    "tags": ["Vegetarian", "Street Food", "Vegan"],
+    "details": {
+        "servings": "4-6 tikkis",
+        "calories": "180 kcal per tikki",
+        "protein": "4g"
+    },
+    "instructions": "Boil, peel, and mash potatoes. Add breadcrumbs (from your bread), chili powder, and salt. Mix well to form a dough. Shape the mixture into flat, round patties (tikkis). Heat oil in a pan and shallow fry the tikkis until they are golden brown and crisp on both sides. Serve hot with ketchup.",
+    "ingredients": [
+      { "name": "potato", "quantity": "4 medium" },
+      { "name": "bread", "quantity": "2 slices for crumbs" },
+      { "name": "chili powder", "quantity": "1 tsp" },
+      { "name": "vegetable oil", "quantity": "for frying" },
+      { "name": "ketchup", "quantity": "for serving" }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Mango Lassi",
+    "image": "/photos/mango-lassi.jpg",
+    "category": "Drink",
+    "tags": ["Yogurt", "Vegetarian", "Sweet", "Gluten-Free"],
+    "details": {
+        "servings": "2 glasses",
+        "calories": "250 kcal",
+        "protein": "8g"
+    },
+    "instructions": "In a blender, combine chopped ripe mango, yogurt, milk, and sugar. Blend until smooth and creamy. If it's too thick, add a little more milk. Pour into glasses and serve chilled. You can garnish with a pinch of cardamom or pistachios if you have them.",
+    "ingredients": [
+      { "name": "mango", "quantity": "1 large" },
+      { "name": "yogurt", "quantity": "1 cup" },
+      { "name": "milk", "quantity": "1/2 cup" },
+      { "name": "sugar", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Watermelon Juice",
+    "image": "/photos/watermeleon-juice.jpg",
+    "category": "Drink",
+    "tags": ["Fruit", "Vegan", "Healthy", "Gluten-Free"],
+    "details": {
+        "servings": "2-3 glasses",
+        "calories": "100 kcal",
+        "protein": "1g"
+    },
+    "instructions": "Cut watermelon into chunks and remove the seeds. Place the chunks in a blender and blend until smooth. Strain the juice through a fine-mesh sieve to remove any pulp. Stir in a pinch of salt or a squeeze of lemon for extra flavor if desired. Serve immediately over ice.",
+    "ingredients": [
+      { "name": "watermelon", "quantity": "1/2 medium" },
+      { "name": "lemon", "quantity": "optional" }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Banana Milkshake",
+    "image": "/photos/banana-milkshake.jpg",
+    "category": "Drink",
+    "tags": ["Fruit", "Vegetarian", "Sweet", "Gluten-Free"],
+    "details": {
+        "servings": "2 glasses",
+        "calories": "300 kcal",
+        "protein": "9g"
+    },
+    "instructions": "In a blender, combine ripe bananas, cold milk, sugar, and a scoop of vanilla ice cream. Blend until smooth and frothy. Pour into tall glasses and serve immediately. You can drizzle with honey or chocolate sauce if you have it.",
+    "ingredients": [
+      { "name": "banana", "quantity": "2" },
+      { "name": "milk", "quantity": "1.5 cups" },
+      { "name": "sugar", "quantity": "2 tbsp" },
+      { "name": "ice cream", "quantity": "1 scoop" },
+      { "name": "honey", "quantity": "optional" }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Simple Sponge Cake",
+    "image": "/photos/sponge-cake.jpg",
+    "category": "Dessert",
+    "tags": ["Vegetarian", "Sweet", "Baking"],
+    "details": {
+        "servings": "8 slices",
+        "calories": "280 kcal per slice",
+        "protein": "5g"
+    },
+    "instructions": "Preheat oven to 180°C (350°F). Cream together butter and sugar until light and fluffy. Beat in eggs one at a time, adding a little vanilla. Gently fold in the flour and baking powder. Pour the batter into a greased and floured cake tin. Bake for 20-25 minutes, or until a skewer inserted into the center comes out clean.",
+    "ingredients": [
+      { "name": "flour", "quantity": "1.5 cups" },
+      { "name": "egg", "quantity": "3" },
+      { "name": "sugar", "quantity": "1 cup" },
+      { "name": "butter", "quantity": "1/2 cup" },
+      { "name": "vanilla", "quantity": "1 tsp" },
+      { "name": "baking powder", "quantity": "1 tsp" },
+      { "name": "strawberry", "quantity": "2-3" }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Shahi Tukda",
+    "image": "/photos/shahi-tukda.jpg",
+    "category": "Dessert",
+    "tags": ["Vegetarian", "Sweet", "Mughlai"],
+    "details": {
+        "servings": "4 people",
+        "calories": "450 kcal",
+        "protein": "8g"
+    },
+    "instructions": "Cut bread slices into triangles and deep fry in ghee until golden and crisp. For the rabri (sweet milk), boil milk until it thickens and reduces to half. Add sugar, condensed milk, and nuts. Dip the fried bread triangles in a light sugar syrup, then pour the rabri over them. Garnish with more nuts.",
+    "ingredients": [
+      { "name": "bread", "quantity": "4 slices" },
+      { "name": "milk", "quantity": "1 litre" },
+      { "name": "sugar", "quantity": "1/2 cup" },
+      { "name": "ghee", "quantity": "for frying" },
+      { "name": "condensed milk", "quantity": "3 tbsp" },
+      { "name": "almonds", "quantity": "for garnish" }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Honey Glazed Almonds",
+    "image": "/photos/honey-almonds.jpg",
+    "category": "Snack",
+    "tags": ["Vegetarian", "Sweet", "Healthy", "Gluten-Free"],
+    "details": {
+        "servings": "1 cup",
+        "calories": "180 kcal per 1/4 cup",
+        "protein": "5g"
+    },
+    "instructions": "In a non-stick pan over medium heat, toast almonds for 2-3 minutes until fragrant. Reduce the heat to low. Drizzle honey over the almonds and stir continuously to coat them evenly. Add a pinch of cinnamon or paprika for extra flavor. Cook for another 2 minutes until the honey bubbles and thickens. Spread on a plate to cool completely.",
+    "ingredients": [
+      { "name": "almonds", "quantity": "1 cup" },
+      { "name": "honey", "quantity": "2 tbsp" },
+      { "name": "cinnamon", "quantity": "1/4 tsp" }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Coconut Laddoo",
+    "image": "/photos/coconut-ladoo.jpg",
+    "category": "Dessert",
+    "tags": ["Vegetarian", "Sweet", "Quick", "Gluten-Free"],
+    "details": {
+        "servings": "12 laddoos",
+        "calories": "150 kcal per laddoo",
+        "protein": "2g"
+    },
+    "instructions": "In a pan, combine desiccated coconut and condensed milk. Cook on low heat, stirring continuously for 5-7 minutes until the mixture thickens and starts to leave the sides of the pan. Let the mixture cool slightly until it's comfortable to handle. Grease your palms with a little ghee and roll small portions of the mixture into round balls (laddoos).",
+    "ingredients": [
+      { "name": "coconut", "quantity": "2 cups desiccated" },
+      { "name": "condensed milk", "quantity": "1 can (400g)" },
+      { "name": "ghee", "quantity": "1 tsp" },
+      { "name": "nuts", "quantity": "optional garnish" }
+    ]
+  }
+]

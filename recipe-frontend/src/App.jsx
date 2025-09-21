@@ -8,6 +8,7 @@ import RegisterPage from "./pages/RegisterPage";
 import Homepage from "./pages/Homepage";
 import FeaturesPage from "./pages/FeaturesPage";
 import Footer from "./components/Footer";
+import ContactPage from "./pages/ContactPage";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/register" element={<RegisterPage/>} />
         <Route path="/home" element={<Homepage/>} />
         <Route path='/features' element={<FeaturesPage/>}/>
+        <Route path='/contact' element={<ContactPage/>}/>
       </Routes>
       <Footer/>
     </div>

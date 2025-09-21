@@ -5,7 +5,7 @@ import  recipeimg from '../assets/recipe-book_9273848.png';
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className='w-full md:px-36 px-auto flex items-center py-4 box-border shadow-lg bg-pink-100 relative'>
+    <nav className='w-full md:px-36 px-auto flex items-center py-4 box-border shadow-lg bg-pink-200 relative'>
       <div className='flex w-full md:justify-start justify-center'>
         <div className='flex gap-2 items-center cursor-pointer md:mx-0 mx-auto'>
           <img src={recipeimg} alt="Recipe Img" className='w-10 h-10 mr-2'/>

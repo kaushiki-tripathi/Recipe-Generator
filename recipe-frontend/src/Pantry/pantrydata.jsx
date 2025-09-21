@@ -1,33 +1,33 @@
 // src/data/ingredientData.js
 export const pantry = [
-  "butter","egg","garlic","milk","onion","sugar","flour","olive oil",
-  "garlic powder","white rice","cinnamon","ketchup","soy sauce",
-  "mayonnaise","vegetable oil","bread","baking powder","brown sugar",
-  "oregano","potato","honey","paprika","baking soda","vanilla","spaghetti",
-  "peanut butter","chili powder","cumin","mustard","basil"
+  "Butter","Egg","Garlic","Milk","Onion","Sugar","Flour","Olive oil",
+  "Garlic powder","White Rice","Cinnamon","Ketchup","Soy Sauce",
+  "Mayonnaise","Vegetable Oil","Bread","Baking Powder","Brown Sugar",
+  "Oregano","Potato","Honey","Paprika","Baking Soda","Vanilla","Spaghetti",
+  "Peanut Butter","Chili Powder","Cumin","Mustard","Basil"
 ];
 
 export const vegetables = [
-  "tomato","spinach","carrot","broccoli","peas","cauliflower","bell pepper",
-  "cabbage","lettuce","pumpkin","radish","beetroot","cucumber","zucchini",
-  "mushroom","okra","corn","green beans"
+  "Tomato","Spinach","Carrot","Broccoli","Peas","Cauliflower","Bell Pepper",
+  "Cabbage","Lettuce","Pumpkin","Radish","Beetroot","Cucumber","Zucchini",
+  "Mushroom","Okra","Corn","Green Beans"
 ];
 
 export const fruits = [
-  "apple","banana","grapes","mango","orange","pear","strawberry","pineapple","raisins",
-  "watermelon","papaya","cherry","kiwi","lemon","peach","coconut","date","pomegranate"
+  "Apple","Banana","Grapes","Mango","Orange","Pear","Strawberry","Pineapple","Raisins",
+  "Watermelon","Papaya","Cherry","Kiwi","Lemon","Peach","Coconut","Date","Pomegranate"
 ];
 
 export const nuts = [
-  "almonds","cashews","walnuts","pistachios","hazelnuts","peanuts","pecans","macadamia","raisins","dates","chestnuts","brazil nuts","chia seeds","sunflower seeds","flaxseeds"
+  "Almonds","Cashews","Walnuts","Pistachios","Hazelnuts","Peanuts","Raisins","Chestnuts","Chia Seeds","Sunflower Seeds","Flaxseeds"
 ];
 
 export const dairy = [
-  "milk","butter","cheese","yogurt","cream","ghee","paneer","buttermilk","curd","condensed milk","evaporated milk","whipped cream","milk powder","ice cream","fried eggs","boiled eggs","raw milk"
+  "Milk","Butter","Cheese","Yogurt","Cream","Ghee","Paneer","Buttermilk","Curd","Condensed Milk","Whipped Cream","Milk Powder","Ice Cream","Fried Eggs","Boiled Eggs","Raw Milk"
 ];
 
 export const meat = [
-  "chicken","mutton","beef","pork","lamb","duck","bacon","beef steak","sausage","goat meat","pepperoni","beef-roast"
+  "Chicken","Mutton","Beef","Pork","Lamb","Duck","Bacon","Beef steak","Sausage","Goat Meat","Pepperoni","Beef-Roast"
 ];
 
-export const poultry = ["egg","chicken breast","chicken thighs","ground turkey","cooked chicken","chicken-wings","chicken-sausage","goose","cornish hen"];
+export const poultry = ["Egg","Chicken Breast","Chicken Thighs","Ground Turkey","Cooked Chicken","Chicken-Wings","Chicken-Sausage","Goose","Gornish Hen"];
